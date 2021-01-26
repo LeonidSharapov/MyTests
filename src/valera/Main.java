@@ -1,6 +1,7 @@
 package valera;
 
 import valera.ArraysAndString.test1;
+import valera.ArraysAndString.test2;
 
 import java.io.*;
 import java.util.Arrays;
@@ -11,17 +12,14 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println(test1.test(reader.readLine()));
+//        System.out.println(test1.test(reader.readLine()));
+        System.out.println(test2.test(reader.readLine(), reader.readLine()));
 
     }
 
 
     static void test2() throws IOException {
-        char[] chek1=reader.readLine().toCharArray();
-        char[] chek2=reader.readLine().toCharArray();
-        Arrays.sort(chek1);
-        Arrays.sort(chek2);
-        System.out.println(String.valueOf(chek1).equals(String.valueOf(chek2)));
+
 
     }
 
