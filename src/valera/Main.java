@@ -1,27 +1,20 @@
 package valera;
 
+import valera.ArraysAndString.test1;
+
 import java.io.*;
 import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+
 
 public class Main {
     private static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
     public static void main(String[] args) throws IOException {
-        //int select  = Integer.parseInt(reader.readLine());
-       test2();
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        System.out.println(test1.test(reader.readLine()));
+
     }
 
-    static void test1() throws IOException {
-        String[] b =reader.readLine().split("");
-        Set set = new HashSet<String>();
-        for (int i = 0; i < b.length; i++) {
-            set.add(b[i]);
-        }
-        boolean chek = set.size()==b.length;
-        System.out.println("all characters are unique = " + chek);
-    }
 
     static void test2() throws IOException {
         char[] chek1=reader.readLine().toCharArray();
