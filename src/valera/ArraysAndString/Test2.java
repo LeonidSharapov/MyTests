@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.Arrays;
 
 public class Test2 {
+  //проверка на пермутацию 
   public   static boolean test(String a, String b) {
 
         char[] chek1=a.toCharArray();
