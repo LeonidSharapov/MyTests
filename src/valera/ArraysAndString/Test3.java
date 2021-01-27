@@ -1,6 +1,7 @@
 package valera.ArraysAndString;
 
 public class Test3 {
+  //добавить вместо пробелов "%20"
   public static String test(String a){
       char [] b=a.replace(" ","%20").toCharArray();
       return new String(b);
