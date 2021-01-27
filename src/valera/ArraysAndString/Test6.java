@@ -2,6 +2,7 @@ package valera.ArraysAndString;
 import java.util.ArrayList;
 import java.util.Arrays;
 public class Test6 {
+        //если элемент матрицы равен нулю, то все элементы в этом ряду и столбце также меняются на нули
         public static int[][]  test(int[][] arr) {
             ArrayList<Integer> m = new ArrayList<>();
             ArrayList<Integer> n = new ArrayList<>();
