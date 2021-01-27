@@ -13,8 +13,7 @@ public class Test5 {
                 }
             }
         }
-
-        System.out.println(list.size());
+        
         int index = 0;
         for(int i=0;i<list.size();i++){
 
