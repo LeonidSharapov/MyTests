@@ -2,8 +2,7 @@ package valera.ArraysAndString;
 
 
 import java.util.HashSet;
-
-
+//проверка уникальности символа в слове
 public class test1 {
     public static boolean test(String str) {
         char[] b =str.toCharArray();
