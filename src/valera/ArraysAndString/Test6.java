@@ -16,7 +16,6 @@ public class Test5 {
         
         int index = 0;
         for(int i=0;i<list.size();i++){
-
             for(int j=0; j<arr.length;j++){
                 arr[j][list.get(index)]=0;
             }
