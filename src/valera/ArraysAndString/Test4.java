@@ -1,6 +1,9 @@
 package valera.ArraysAndString;
 
 public class Test4 {
+    
+    //Есть три типа редактирования строк: вставка символа, удаление символа, 
+    //замена символа. алгоритм берёт 2 строки и говорить можно ли получить одну из другой отредактировав её всего один раз.
     public static boolean test(String a, String b) {
         String[] chek2;
         String[] chek1;
