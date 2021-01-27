@@ -1,5 +1,6 @@
 package valera.ArraysAndString;
-
+/*Метод принимает строку и сжимает её используя счётчики повторяющихся символов.
+Если сжатая строка длинее обычной то возращает обыную строку*/
 public class Test5 {
    public static String test(String a){
         String[] b = a.split("");
